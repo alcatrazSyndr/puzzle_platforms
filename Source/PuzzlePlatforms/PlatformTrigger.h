@@ -24,6 +24,6 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere)
 	class UBoxComponent* TriggerVolume;
 };
